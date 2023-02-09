@@ -96,8 +96,8 @@
                             <ul class="dd-menu sf-menu sf-js-enabled">
                                 <li class="active"><a href="index.html" title="Home"><span>Início</span></a></li>
                                 <li class=""><a href="index.html" title="About"><span>Sobre</span></a></li>
-                                <li class=""><a href="index.html" title="Plans"><span>Planos</span></a></li>
-                                <li class=""><a href="index.html" title="Contact"><span>Contato</span></a></li>
+                                <li class="" onclick="rolar('planos_');"><a title="Planos"><span>Planos</span></a></li>
+                                <li class="" onclick="rolar('contato_');"><a title="Contato"><span>Contato</span></a></li>                             
                                 &nbsp <img style="margin-left:20px;"
                                     src="images/flower-e1476975452944.png" alt="">
                                 
@@ -108,8 +108,8 @@
                             <ul class="dd-menu sf-menu sf-js-enabled">
                                 <li class="active"><a href="index.html" title="Home"><span>Início</span></a></li>
                                 <li class=""><a href="index.html" title="About"><span>Sobre</span></a></li>
-                                <li class=""><a href="index.html" title="Plans"><span>Planos</span></a></li>
-                                <li class=""><a href="index.html" title="Contact"><span>Contato</span></a></li>
+                                <li class="" onclick="rolar('planos_');"><a title="Planos"><span>Planos</span></a></li>
+                                <li class="" onclick="rolar('contato_');"><a title="Contato"><span>Contato</span></a></li>
                                 &nbsp<img style="margin-left:20px;"
                                     src="images/flower-e1476975452944.png" alt="">
                                 
@@ -366,7 +366,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="icon-box ibox-center ibox-secondary ibox-outline ibox-effect ibox-plain">
-                                <div class="ibox-icon">
+                                <div class="ibox-icon" id="planos_">
                                     <i class="fa fa-question-circle"></i>
                                 </div>
                                 <h3>Ajudamos você a se planejar</h3>
@@ -375,7 +375,7 @@
                         </div>
                     </div>
                     <!-- end row -->
-                    <div class="spacer-35"></div>
+                    <div class="spacer-35" ></div>
                 </div>
                 <!-- end container -->
                 <div class="banner parallax parallax2" style="background-image:url(images/image8-1.jpg);">
@@ -390,7 +390,7 @@
                             </h2>-->
                             <ul class="nav nav-tabs obituary-info-tabs" role="tablist" style="text-align: center;">
 
-                                <li class=""><a href="#service-details" aria-controls="Service details" role="tab" data-toggle="tab"
+                                <li class="" ><a href="#service-details" aria-controls="Service details" role="tab" data-toggle="tab"
                                         aria-expanded="false"><h2>Nossos Planos</h2></a></li>
                                 <li class="active"><a href="#photographs" aria-controls="Photographs" role="tab" data-toggle="tab"
                                         aria-expanded="false"><h2>Salas</h2></a></li>
@@ -409,7 +409,7 @@
 
             <div class="col-md-8" style="width: 100%; float: left;">
                 
-                <div class="tab-content obituary-info-tabs-content">
+                <div class="tab-content obituary-info-tabs-content" >
                     <div role="tabpanel" class="tab-pane" id="Obituary">
                         <div class="post-content">
                             <!---<p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
@@ -501,7 +501,7 @@
                     data-property="{videoURL:'https://www.youtube.com/watch?v=YjVh9hwqOxA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
                 <!-- start our location -->
                 <div class="our-location">
-                    <div class="spacer-95"></div>
+                    <div class="spacer-95" id="address_"></div>
                     <!-- start container -->
                     <div class="container">
                         <!-- start row -->
@@ -584,7 +584,7 @@
                                 </div>
                                 <!-- end fillform -->
                             </div>
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6"  id="contato_">
                                 <!-- start map -->
                                 <!-- <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.6190947115628!2d-38.23983937397303!3d-4.133553046522623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b89731dd106069%3A0xaf9a8cefd884a83!2sAv.%20Chanceler%20Edson%20Queiroz%2C%202300%20-%20Cascavel%2C%20CE%2C%2062850-000!5e1!3m2!1spt-BR!2sbr!4v1674443904121!5m2!1spt-BR!2sbr"
@@ -592,7 +592,7 @@
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>-->
 
 
-                                <div class="map margin-40" id="address_">
+                                <div class="map margin-40">
                                     <a href="https://www.google.com.br/maps/place/Av.+Chanceler+Edson+Queiroz,+2300+-+Cascavel,+CE,+62850-000/@-4.133553,-38.2414809,17z/data=!3m1!4b1!4m5!3m4!1s0x7b89731dd106069:0xaf9a8cefd884a83!8m2!3d-4.1335584!4d-38.2392922"
                                         title="map"><img src="images/img_map.jpg" alt="map"></a>
                                 </div>
