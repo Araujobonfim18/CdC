@@ -2,15 +2,15 @@
 <html class="no-js" lang="pt-BR">
 
 <head>
-    <!-- Necessidades Básicas da Página
+    <!-- NECESSIDADES BÁSICAS DA PÁGINA
   ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Funerária Caminho do Céu</title>
+    <title>Caminho do Céu</title>
     <meta name="description" content="Funerária Caminho do Céu">
     <meta name="keywords" content="">
     <meta name="author" content="@BONFIM ARAÚJO - B.Click - Designer">
 
-    <!-- Mobile Specific Metas
+    <!-- ESPECIFICAÇÕES MOBILE
   ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS
@@ -21,25 +21,31 @@
     <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css"><!-- Magnific Popup -->
     <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css"><!-- Owl Carousel -->
     <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css"><!-- Owl Carousel Theme -->
-    <!-- Color Style -->
+    <!-- ESTILO DE CORES -->
     <link class="alt" href="colors/color7.css" rel="stylesheet" type="text/css">
     <link href="style-switcher/css/style-switcher.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/FaviCon.png" type="image/x-icon" />
-    <!-- CUSTOM STYLESHEET FOR STYLING ~ fonts Google -->
+    <!-- CUSTOM STYLESHEET PARA STYLING ~ fonts Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <!-- SCRIPTS
   ================================================== -->
     <script src="js/modernizr.js"></script><!-- Modernizr -->
+    <script type="text/javascript"> 
+        function rolar(objID) {
+            this.location = "#" + objID;
+        }
+    </script><!--## SCRIPT DE ROLAGEM ## -->
+
 </head>
 
 <body class="home">
     <div class="body">
-        <!-- start topbar -->
+        <!-- INÍCIO topbar -->
         <header class="topbar">
-            <!-- start container -->
+            <!-- INÍCIO container -->
             <div class="container">
                 <div class="header-info-col">
                     <i class="fa fa-phone"></i>
@@ -49,33 +55,28 @@
                     <i class="fa fa-envelope-o"></i>
                     <strong><a href="mailto:caminhocc@gmail.com" title="">caminhocc@gmail.com</a></strong>
                 </div>
-                <script type="text/javascript">
-                    function rolar(objID) {
-                        this.location = "#" + objID;
-                    }
-                </script>
-                <div onclick="rolar('address_');" class="header-info-col" >
+                   <div onclick="rolar('address_');" class="header-info-col" >
                     <i class="fa fa-map-marker"></i>
                     <strong><a>Nossos Endereços</a></strong>
                 </div>
             </div>
-            <!-- end container -->
+            <!-- FIM container -->
         </header>
-        <!-- end topbar -->
-        <!-- start header -->
+        <!-- FIM topbar -->
+        <!-- INÍCIO header (CABERÇALHO) -->
         <header class="site-header-wrapper">
             <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 90px;">
                 <div class="site-header" style="">
-                    <!-- start container -->
+                    <!-- INÍCIO container -->
                     <div class="container">
-                        <!-- start site logo -->
+                        <!-- INÍCIO site logo (LOGO) -->
                         <div class="site-logo">
                             <a href="index.html" title="CaminhoDoCeu" class="default-logo">
                                 <img src="images/logo_header204x46.png" alt="CdC"></a>
                             <a href="index.html" title="CaminhoDoCeu" class="default-retina-logo"><img
                                     src="images/logo_header2x_292x66.png" alt="CdC" width="204" height="46"></a>
                         </div>
-                        <!-- end site logo -->
+                        <!-- FIM site logo -->
 
                         <a href="#" id="menu-toggle" class="">
                             <i class="fa fa-bars"></i>
@@ -92,10 +93,11 @@
                                 </form>
                             </div>
                         </div>
+                        <!-- INICIO main navigation (MENU) -->
                         <nav class="main-navigation pull-right">
                             <ul class="dd-menu sf-menu sf-js-enabled">
-                                <li class="active"><a href="index.html" title="Home"><span>Início</span></a></li>
-                                <li class=""><a href="index.html" title="About"><span>Sobre</span></a></li>
+                                <li class="active"><a href="index.html" title="Inicio"><span>Início</span></a></li>
+                                <li class=""><a href="about.html" title="Sobre"><span>Sobre</span></a></li>
                                 <li class="" onclick="rolar('planos_');"><a title="Planos"><span>Planos</span></a></li>
                                 <li class="" onclick="rolar('contato_');"><a title="Contato"><span>Contato</span></a></li>                             
                                 &nbsp <img style="margin-left:20px;"
@@ -103,11 +105,12 @@
                                 
                             </ul>
                         </nav>
-                        <!-- start main navigation -->
+                        <!-- FIM main navigation  (MENU) -->
+                        <!-- INICIO main navigation (MENU) -->
                         <nav class="main-navigation pull-right" style="display: none;">
                             <ul class="dd-menu sf-menu sf-js-enabled">
-                                <li class="active"><a href="index.html" title="Home"><span>Início</span></a></li>
-                                <li class=""><a href="index.html" title="About"><span>Sobre</span></a></li>
+                                <li class="active"><a href="index.html" title="Inicio"><span>Início</span></a></li>
+                                <li class=""><a href="about.html" title="Sobre"><span>Sobre</span></a></li>
                                 <li class="" onclick="rolar('planos_');"><a title="Planos"><span>Planos</span></a></li>
                                 <li class="" onclick="rolar('contato_');"><a title="Contato"><span>Contato</span></a></li>
                                 &nbsp<img style="margin-left:20px;"
@@ -115,14 +118,14 @@
                                 
                             </ul>
                         </nav>
-                        <!-- end main navigation -->
+                        <!-- FIM main navigation  (MENU) -->
                     </div>
-                    <!-- end container -->
+                    <!-- FIM container -->
                 </div>
             </div>
         </header>
-        <!-- end header -->
-        <!-- start hero slider -->
+        <!-- FIM header (CABERÇALHO) -->
+        <!-- INICIO hero slider (SLIDES) -->
         <div class="hero-slider heroflex flexslider" data-autoplay="yes" data-pagination="no" data-arrows="yes"
             data-style="slide">
 
@@ -131,7 +134,7 @@
                     style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-2698px, 0px, 0px);">
                     <li style="background-image: url(images/bg_slide2.jpg); width: 1349px; margin-right: 0px; float: left; display: block;"
                         class="flex-active-slide">
-                        <!-- start container -->
+                        <!-- INICIO container (SLIDE #1) -->
                         <div class="container">
                             <div class="hero-caption">
                                 <h1>Plano Assistêncial </h1>
@@ -143,11 +146,11 @@
                                 <a href="https://api.whatsapp.com/send?phone=5585989488554&text=Ola!%20bom%20dia,%20gostaria%20de%20saber%20mais%20sobre%20os%20planos. " target="_blank" title="Conheca nossos planos" class="btn-services">Conheça nossos Planos </a>
                             </div>
                         </div>
-                        <!-- end container -->
+                        <!-- FIM container (SLIDE #1)-->
                     </li>
                     <li style="background-image: url(images/casal_idoso.jpg); width: 1349px; margin-right: 0px; float: left; display: block;"
                         class="">
-                        <!-- start container -->
+                        <!-- INICIO container (SLIDE #2)-->
                         <div class="container">
                             <div class="hero-caption">
                                 <h1>Crematório</h1>
@@ -158,11 +161,11 @@
                                     contato </a>
                             </div>
                         </div>
-                        <!-- end container -->
+                        <!-- FIM container (SLIDE #2)-->
                     </li>
                     <li style="background-image: url(&quot;images/bg_slide.jpg&quot;); width: 1349px; margin-right: 0px; float: left; display: block;"
                         class="clone" aria-hidden="true">
-                        <!-- start container -->
+                        <!-- INICIO container (SLIDE #3)-->
                         <div class="container">
                             <div class="hero-caption">
                                 <h1>Jazidos Completos</h1>
@@ -172,7 +175,7 @@
                                     contato </a>
                             </div>
                         </div>
-                        <!-- end container -->
+                        <!-- FIM container (SLIDE #3)-->
                     </li>
                 </ul>
             </div>
@@ -181,13 +184,13 @@
                 <li class="flex-nav-next"><a class="flex-next" href="#"></a></li>
             </ul>
         </div>
-        <!-- end hero slider -->
-        <!-- Start body content -->
+        <!-- FIM hero slider (SLIDES)-->
+        <!-- INICIO body content (CORPO)-->
         <div class="main" role="main">
             <div id="content" class="content full">
-                <!-- start container -->
+                <!-- INICIO container (APRESENTAÇÃO)-->
                 <div class="container">
-                    <!-- start row -->
+                    <!-- INICIO row (APRESENTAÇÃO)-->
                     <div class="row">
                         <div class="spacer-50"></div>
                         <div class="col-md-4">
@@ -213,13 +216,13 @@
                         </div>
                         <div class="spacer-50"></div>
                     </div>
-                    <!-- end row -->
+                    <!-- FIM row (APRESENTAÇÃO)-->
                 </div>
-                <!-- end container -->
+                <!-- FIM container (APRESENTAÇÃO)-->
                 <div class="parallax parallax1 padding-tb75" style="background:url(images/bg1-1.jpg);">
-                    <!-- start container -->
+                    <!-- INICIO container (SERVICOS) -->
                     <div class="container">
-                        <!-- start row -->
+                        <!-- INICIO row (SERVICOS - CHAMADA)-->
                         <div class="row no-gutters secondary-bg">
                             <div class="col-md-3">
                                 <div class="padding-all27">
@@ -237,7 +240,7 @@
                                 <div class="carousel-area">
                                     <div class="carousel-wrapper-outer">
                                         <h2>NOSSOS SERVIÇOS</h2>
-                                        <!-- start carousel -->
+                                        <!-- INCIO carousel  (SLIDES_SERVICOS)-->
                                         <div class="carousel-wrapper">
                                             <div class="row">
                                                 <ul class="owl-carousel carousel-fw" data-columns="3" data-autoplay=""
@@ -324,16 +327,16 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <!-- end carousel -->
+                                        <!-- FIM carousel (SLIDE_SERVICOS)-->
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- end row -->
+                        <!-- FIM row -->
                     </div>
-                    <!-- end container -->
+                    <!-- FIM container (SERVICOS) -->
                 </div>
-                <!-- start container -->
+                <!-- INICIO container (PONTUALIDADES)-->
                 <div class="container">
                     <div class="spacer-70"></div>
                     <p class="text-align-center">
@@ -344,7 +347,7 @@
                     <h4 class="text-align-center">Entre em contato conosco para agendar uma visita e
                          discutir como podemos ajudar.</h4>
                     <div class="spacer-35"></div>
-                    <!-- start row -->
+                    <!-- INICIO row (PONTUALIADES)-->
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
                             <div class="icon-box ibox-center ibox-secondary ibox-outline ibox-effect ibox-plain">
@@ -374,14 +377,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end row -->
+                    <!-- FIM row (PONTUALIDADES) -->
                     <div class="spacer-35" ></div>
                 </div>
-                <!-- end container -->
+                <!-- FIM container (PONTUALIDADES)-->
                 <div class="banner parallax parallax2" style="background-image:url(images/image8-1.jpg);">
                     <div class="accent-overlay"></div>
                     <div class="banner-caption text-align-center">
-                        <!-- start container -->
+                        <!-- INICIO container (GALERIA) -->
                         <div class="container">
                             <!--<h1 style="color: white;">Nosso espaço</h1>
                             <h2 style="font-size: 20px;"><span> Salas
@@ -400,10 +403,10 @@
                                     data-toggle="tab"><h2>SendFlowers</h2></a></li>-->
                             </ul>
                         </div>
-                        <!-- end container -->
+                        <!-- FIM container (GALERIA)-->
                     </div>
                 </div>
-                <!--start container-->
+                <!--INICIO container-->
                 <div class="spacer-50" style="margin-top: -20px;"></div>
             </div>
 
@@ -491,23 +494,23 @@
             </div>
 
 
-            <!-- end carousel -->
+            <!-- FIM carousel -->
             <div class="spacer-70"></div>
         </div>
-        <!-- end container -->
+        <!-- FIM container (GALERIA) -->
         <section class="content-section video-section">
             <div class="overlay">
                 <a id="bgndVideo" class="player"
                     data-property="{videoURL:'https://www.youtube.com/watch?v=YjVh9hwqOxA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
-                <!-- start our location -->
+                <!-- INICIO our location (LOCALIZACAO) -->
                 <div class="our-location">
                     <div class="spacer-95" id="address_"></div>
-                    <!-- start container -->
+                    <!-- INICIO container -->
                     <div class="container">
-                        <!-- start row -->
+                        <!-- INICIO row -->
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
-                                <!-- start fillform -->
+                                <!-- INICIO fillform (FILIAIS)-->
                                 <div class="fillform">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="icon-box ibox-secondary ibox-outline margin-70">
@@ -582,10 +585,10 @@
                                     <div class="clearfix"></div>
                                     <div id="message"></div>
                                 </div>
-                                <!-- end fillform -->
+                                <!-- FIM fillform (FILIAIS)-->
                             </div>
                             <div class="col-md-6 col-sm-6"  id="contato_">
-                                <!-- start map -->
+                                <!-- INICIO map (MAPA)-->
                                 <!-- <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.6190947115628!2d-38.23983937397303!3d-4.133553046522623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b89731dd106069%3A0xaf9a8cefd884a83!2sAv.%20Chanceler%20Edson%20Queiroz%2C%202300%20-%20Cascavel%2C%20CE%2C%2062850-000!5e1!3m2!1spt-BR!2sbr!4v1674443904121!5m2!1spt-BR!2sbr"
                                         width="530" height="260" style="border:1;" allowfullscreen="" loading="lazy"
@@ -596,8 +599,8 @@
                                     <a href="https://www.google.com.br/maps/place/Av.+Chanceler+Edson+Queiroz,+2300+-+Cascavel,+CE,+62850-000/@-4.133553,-38.2414809,17z/data=!3m1!4b1!4m5!3m4!1s0x7b89731dd106069:0xaf9a8cefd884a83!8m2!3d-4.1335584!4d-38.2392922"
                                         title="map"><img src="images/img_map.jpg" alt="map"></a>
                                 </div>
-                                <!-- end map -->
-                                <!-- start services wrapper -->
+                                <!-- fIM map (MAPA) -->
+                                <!-- INICIO services wrapper (CONTATO_#) -->
                                 <div class="services-wrapper">
                                     <h2 class="white-text">
                                         Agende seu serviço</h2>
@@ -616,19 +619,19 @@
                                         98948.8554</span>
                                     </p>
                                 </div>
-                                <!-- end services wrapper -->
+                                <!-- FIM services wrapper (CONTATO_#)-->
                             </div>
                         </div>
-                        <!-- end row -->
+                        <!-- FIM row -->
                     </div>
-                    <!-- end container -->
+                    <!-- FIM container (LOCALIZACAO) -->
                     <div class="spacer-45"></div>
                 </div>
-                <!-- end our location -->
+                <!-- FIM our location (LOCALIZACAO) -->
             </div>
         </section>
         <div class="secondary-bg cta">
-            <!-- start container -->
+            <!-- INICIO container (WHATSAPP_CHAMADA-->
             <div class="container">
                 <a href="https://api.whatsapp.com/send?phone=5585989488554&text=Ola!%20bom%20dia,%20gostaria%20de%20sabre%20mais%20sobre%20os%20planos."
                     title="WhatsApp" class="btn btn-default btn-transparent btn-rounded pull-right">WhatsApp
@@ -637,26 +640,26 @@
                     mantenha viva suas saudades.
                 </h3>
             </div>
-            <!-- end container -->
+            <!-- FIM container  (WHATSAPP_CHAMADA-->
         </div>
     </div>
     </div>
-    <!-- end body content -->
-    <!-- start footer -->
+    <!-- FIM body content  (CORPO)-->
+    <!-- INICIO footer (RODAPE)-->
     <footer class="footer">
-        <!-- start site footer -->
+        <!-- INICIO site footer -->
         <div class="site-footer">
-            <!-- start container -->
+            <!-- INICIO container -->
             <div class="container">
-                <!-- start row -->
+                <!-- INICIO row -->
                 <div class="row">
                     <div class="col-md-3 footer_widget">
                         <h5>Nossa Empresa</h5>
-                        <!-- start footer logo -->
+                        <!-- INICIO footer logo -->
                         <div class="footer-logo margin-20">
                             <a href="index.html" title="CdC"><img src="images/logo_header204x46.png" alt="Obsequy"></a>
                         </div>
-                        <!-- end footer logo -->
+                        <!-- FIM footer logo -->
                         <p style="text-align: justify;">A Funerária <strong>Caminho do Céu</strong> desde 1998
                             oferece
                             serviços
@@ -668,7 +671,7 @@
                     </div>
                     <div class="col-md-3 footer_widget">
                         <h5>Serviços</h5>
-                        <!-- start menu services -->
+                        <!-- INICIO menu services -->
                         <div class="menu-services">
                             <ul>
                                 <li><a href="https://api.whatsapp.com/send?phone=5585989488554&text=Ola!%20bom%20dia,%20gostaria%20de%20sabre%20mais%20sobre%20os%20planos." title="Burial Services">Serviços Funerários</a>
@@ -680,12 +683,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- end menu services -->
+                        <!-- FIM menu services -->
                     </div>
                     <div class="col-md-3 footer_widget">
                         <h5>Posts Recentes</h5>
                         <p style="">carregando ...</p>
-                        <!-- start recent post -->
+                        <!-- INICIO recent post -->
                         <!--<div class="recent-post">
                             <ul>
                                 <li>
@@ -733,13 +736,13 @@
                                 </li>
                             </ul>
                         </div>-->
-                        <!-- end recent post -->
+                        <!-- FIM recent post -->
                         <div class="spacer-30"></div>
                     </div>
                     <div class="col-md-3 footer_widget">
                         <h5>Redes Sociais</h5>
-                        <!-- start tweets -->
-                        <!-- start social icons colored -->
+                        <!-- INICIO tweets -->
+                        <!-- INICIO social icons colored (REDES_SOCIAIS)-->
                         <div class="social-icons-colored pull-left">
                             <ul>
                                 <li class="facebook"><a title="facebook"><i class="fa fa-facebook"></i></a>
@@ -750,20 +753,20 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- end social icons colored -->
-                        <!-- end tweets -->
+                        <!-- FIM social icons colored (REDES_SOCIAIS)-->
+                        <!-- FIM tweets -->
                     </div>
                 </div>
-                <!-- end row -->
+                <!-- FIM row -->
             </div>
-            <!-- end container -->
+            <!-- FIM container -->
         </div>
-        <!-- end site footer -->
-        <!-- start site footer bottom -->
+        <!-- FIM site footer  (RODAPE)-->
+        <!-- INICIO site footer bottom -->
         <div class="site-footer-bottom">
-            <!-- start container -->
+            <!-- INICIO container -->
             <div class="container">
-                <!-- start row -->
+                <!-- INICIO row -->
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <p>Todos os direitos reservados - 2023 - Developed by <a
@@ -780,13 +783,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- end row -->
+                <!-- FIM row -->
             </div>
-            <!-- end container -->
+            <!-- FIM container -->
         </div>
-        <!-- end site footer bottom -->
+        <!-- FIM site footer bottom -->
     </footer>
-    <!-- end footer -->
+    <!-- FIM footer RODAPE-->
     <a id="back-to-top"><i class="fa fa-arrow-up"></i></a>
     </div>
     <script src="js/jquery-2.2.3.min.js"></script> <!-- Jquery Library Call -->
