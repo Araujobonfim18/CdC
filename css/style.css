@@ -3764,7 +3764,7 @@ p.meta-data {
 	position: absolute;
 	width: 150%;
 	height: 100%;
-	background: url(./images/sede1.png); /* FUNDO PRINCIPAL */
+	background: url(../images/sede1.png); /* FUNDO PRINCIPAL */
 	-moz-background-size: cover;-webkit-background-size: cover;background-size: cover;
 	}
 	.imagen {
@@ -3776,19 +3776,19 @@ p.meta-data {
 	cursor: pointer;
 	}
 	.imagen:nth-of-type(1) {
-	background-image: url(./images/sede1.png);
+	background-image: url(../images/sede1.png);
 	box-shadow: 3px 0px 6px 1px black;
 	}
 	.imagen:nth-of-type(2) {
-	background-image: url(./images/sala3.jpg);
+	background-image: url(../images/sala3.jpg);
 	box-shadow: 3px 0px 6px 1px black;
 	}
 	.imagen:nth-of-type(3) {
-	background-image: url(./images/recepcao.jpeg);
+	background-image: url(../images/recepcao.jpeg);
 	box-shadow: 3px 0px 6px 1px black;
 	}
 	.imagen:nth-of-type(4) {
-	background-image: url(./images/frota.jpeg);
+	background-image: url(../images/frota.jpeg);
 	box-shadow: 3px 0px 6px 1px black;
 	}
 	.imagen:before {
